@@ -1,0 +1,23 @@
+# minx - Small AI Model Engineer (Laptop 4GB RAM)
+# Web + Mobile App Coding Assistant
+# Core: CPU-only, low memory
+
+# === Training (Step 2-3) ===
+torch>=2.1.0 --index-url https://download.pytorch.org/whl/cpu
+transformers>=4.40.0
+peft>=0.10.0
+datasets>=2.19.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+trl>=0.8.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# === Export & Quantize (Step 4-5) ===
+# llama-cpp-python diinstall terpisah (lihat setup.bat)
+
+# === Utility ===
+psutil>=5.9.0
+tqdm>=4.66.0
+pyyaml>=6.0
+jsonlines>=4.0.0
